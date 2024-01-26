@@ -1,0 +1,134 @@
+.App {
+  img {
+    width: 50px;
+    display: block;
+    margin: auto;
+  }
+  
+  .imagesize {
+    width: 150px;
+    align-self: left;
+    display: block;
+    margin: 0px 0px 0px 0px;
+  }
+  .background {
+    background-color: white;
+  }
+  .maincontainer {
+    padding: initial;
+    max-width: 600px;
+    margin: 30px auto;
+    border: 1px solid #dadde1;
+    border-radius: 10px;
+    background-color: transparent;
+  }
+  
+  .row {
+    margin: 0;
+    background-color: transparent;
+  }
+  .containerleft {
+    max-width: 99%;
+  }
+  
+  .containerright {
+    max-width: 55%;
+  }
+  
+  .searchcontainer {
+    margin: 2% 0;
+    background-color: transparent;
+    padding-right: 50%;
+    
+  }
+  
+  .cityname {
+    color: #20016d;
+    font-family: "Abyssinica SIL", monospace;
+    font-size: 22px;
+    text-align: center;
+  }
+  .standardstyleleft {
+    color: #20016d;
+    font-family: "Abyssinica SIL", monospace;
+    font-size: 20px;
+    text-align: left;
+  }
+  
+  .standardstyleright {
+    color: #20016d;
+    font-family: "Abyssinica SIL", monospace;
+    font-size: 15px;
+    text-align: right;
+  }
+  
+  .leftstyledescription {
+    color: #20016d;
+    font-family: "Abyssinica SIL", monospace;
+    font-size: 13px;
+    text-align: left;
+  }
+  .rightstyledescription {
+    color: #20016d;
+    font-family: "Abyssinica SIL", monospace;
+    font-size: 13px;
+    text-align: right;
+  }
+  
+  .styleformbutton {
+    color: #20016d;
+    font-family: "Abyssinica SIL", monospace;
+    font-size: 14px;
+    text-align: left;
+    background-color: transparent;
+    
+  }
+  
+  .cardstyle {
+    color: #20016d;
+    font-family: "Abyssinica SIL", monospace;
+    font-size: 14px;
+    text-align: center;
+    background-color: transparent;
+  }
+  .card,
+  li,
+  ul {
+    background-color: transparent;
+  }
+  .currenttemperaturestyle {
+    color: #20016d;
+    font-family: "Abyssinica SIL", monospace;
+    font-size: 50px;
+    text-align: left;
+    font-weight: bold;
+  }
+  
+  .list-group-item {
+    padding: 1% 0;
+    border: none;
+    margin: 0;
+    background-color: transparent;
+    list-style: none;
+    
+
+  }
+  
+  .standardstyleright .active-link {
+    color: #20016d;
+    cursor: default;
+    text-decoration: none;
+    font-weight: bold;
+    
+  }
+  .standardstyleright .active-link:hover {
+    text-decoration: none;
+  }
+  .list-group-flush {
+    background-color: transparent;
+  }
+  
+  .minTemperature {
+    color: darkgray;
+  }
+}
